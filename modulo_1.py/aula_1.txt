@@ -1,0 +1,37 @@
+OPERADORES ARITMÉTICA
+
+x=50   valor referente a x
+y=2    valor referente a y
+
+
+print(x + y)   adição
+print(x - y)   subtração
+print(x * y)   multiplicação
+print(x / y)   divisão
+
+
+print(x ** y)  exponenciação
+print(x // y)  divisao inteira
+print(x % y)   operador de resto (apenas valor inteiro)
+
+print(3 // 4)  divisao inteira
+
+
+
+OPERADORES LOGICOS
+tem_cafe = True   verdadeiro
+tem_pao = False   falso
+
+print(NOT tem_cafe)              não tem_cafe          |False
+print(tem_cafe OR tem_pao)       tem_cafe ou tem_pao   |True 
+print(tem_cafe AND tem_pao)      tem_cafe e tem_pao    |False
+
+dolar = 5.3
+real = 1
+
+print(dolar > real)     dolar MAIOR real
+print(dolar < real)     dolar MENOR real
+print(dolar == real)    dolar IGUAIS real
+print(dolar >= real)    dolar MAIOR OU IGUAL real
+print(dolar <= real)    dolar MENOR OU IGUAL real
+print(dolar != real)    dolar DIFERENTES real
