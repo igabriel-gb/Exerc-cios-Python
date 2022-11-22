@@ -1,4 +1,8 @@
-AULA PARA DESVIAR ALGORITMOS
+
+         ____AULA ALGORITMOS____
+     _____COMPARAÇÃO DE VALORES_____
+
+
 
 valor_passagem = 4.30                                                        valor da passagem
 valor_corida = input('qual e o valor da corrida?')                           texto de acordo com a nescessidade

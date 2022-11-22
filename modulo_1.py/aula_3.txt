@@ -1,0 +1,53 @@
+tomar cuidado com loop infinito
+
+
+
+
+contador = 0                                                           variavel, valor inicial
+while contador < 10:                                                   condição: quero que o codgo rode emquanto o contador for menor que 10
+    contador = contador  + 1                                           para não correr risco de loop infinito
+    if contador == 1:                                                  teste do contador
+        print(contador, "item conferido")                              mensagem para contidae de iteis se for um
+    else:                                                              
+        print( contador, "intens conferidos")                          mensagem para mais de um
+print("chegamos ao fim da repetição deste bloco")                      mensagens para o fom da repetição
+
+
+
+
+NÃO E UMA PRATICA ULTILIZADA
+contador = 0                                                           valor inicial
+while True:                                                            suposto loop infinito true
+    if contador < 10:                                                  forçar a condição anterior
+        contador = contador + 1                                        para não acontecer loop
+        if contador == 1:                                              teste
+            print(contador, "item conferido")                          um item
+        else:                                                          .
+            print( contador, "intens conferidos")                      para mais de um item
+    else:                                                              para quebrar o loop
+        break                                                          para quebrar o loop
+print("chegamos ao fim da repetição do bloco 2")                       mensagem para a conclusão
+
+
+
+______VALIDAÇÃO DE ENTRADA_____
+
+texto = input('digite sua senha')                                      pedir a entrada
+while texto != 'gabriel':                                              senha
+    texto = input('Senha incorreta. Tente novamente')                  se por acaso errar a mensagem que aparece para o usoario
+
+print('acesso permitido')                                              apos confirmação de senha
+
+
+
+
+
+contador = 0                                                           
+while contador < 10:
+    contador = contador  + 1                                           
+    if contador == 1:
+        continue                                                       para ignorar o primeiro contador
+        print(contador, "item conferido")                              
+    else:
+        print( contador, "intens conferidos")
+print("chegamos ao fim da repetição deste bloco")
