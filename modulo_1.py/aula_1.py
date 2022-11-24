@@ -31,3 +31,10 @@ print(dolar == real)
 print(dolar >= real)
 print(dolar <= real)
 print(dolar != real)
+
+
+
+
+
+
+
