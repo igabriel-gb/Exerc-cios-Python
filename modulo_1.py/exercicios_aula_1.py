@@ -30,8 +30,8 @@ gastos=input('Quanto voce gasta todos os meses? ')
 gastos=float(gastos)
 
 outros_gastos_padrões=20
-c = 22000
-hoje_tenho = 7000
+c = 50000
+hoje_tenho = 0
 bruto = salario - gastos
 
 a = outros_gastos_padrões * bruto
