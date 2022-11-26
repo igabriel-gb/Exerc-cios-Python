@@ -1,4 +1,0 @@
-identificar uma variavel
-= operador de atribuição
-
-x = 5     variavel X 
