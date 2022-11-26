@@ -30,8 +30,8 @@ gastos=input('Quanto voce gasta todos os meses? ')
 gastos=float(gastos)
 
 outros_gastos_padrões=20
-c = 50000
-hoje_tenho = 0
+c = 22000
+hoje_tenho = 7000
 bruto = salario - gastos
 
 a = outros_gastos_padrões * bruto
@@ -79,3 +79,25 @@ for p in range(1,4):
     Sexo = float,print ( Sexo )
     Natural = float,print (Natural,'-', estado)
     Telefone = float,print (Telefone)
+
+
+
+
+#faça um programa para a polícia solucionar um assassinato, para descobrir o assassino a polícia faz um questionario de 5 perguntas, para 4 suspeitos.
+
+
+print ('REPONDA COM ''SIM'' OU ''NAO'':')
+for p in range(1,5):
+    print('{}ª PESSOA'. format (p))
+    pergunta_1=format(input('1. Mora perto da vítima?'))
+    pergunta_2=format(input('2 Ja trabalhou com a vítima?')) 
+    pergunta_3=format( input ('3. telefono paara a vítima?'))
+    pergunta_4=format(input('4. Esteve com a vítima?'))
+    pergunta_5=format(input("5. Devia para a vítima?"))
+    
+    print ('dados',p,'ª pessoa')
+    print ( pergunta_1 )
+    print ( pergunta_2 )
+    print ( pergunta_3 )
+    print ( pergunta_4 )
+    print ( pergunta_5 )

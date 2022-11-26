@@ -1,11 +1,15 @@
-
-sim = 0
-
-
-a = print, str(input('2. Já trabalhou com a vítima?'))
-
-if a in 'sim' and 1 > sim:
-    a +=1
-
-
-print ('teste', format(sim))
+print ('REPONDA COM ''SIM'' OU ''NAO'':')
+for p in range(1,4):
+    print('{}ª PESSOA'. format (p))
+    pergunta_1=format(input('1. Mora perto da vítima?'))
+    pergunta_2=format(input('2 Ja trabalhou com a vítima?')) 
+    pergunta_3=format( input ('3. telefono paara a vítima?'))
+    pergunta_4=format(input('4. Esteve com a vítima?'))
+    pergunta_5=format(input("5. Devia para a vítima?"))
+    
+    print ('dados',{},'ª pessoa')
+    print ( pergunta_1 )
+    print ( pergunta_2 )
+    print ( pergunta_3 )
+    print ( pergunta_4 )
+    print ( pergunta_5 )
