@@ -1,5 +1,5 @@
 for p in range(1,6):
-    print('{}ª PESSOA'. format (p))
+    print('{}ª ENTREVISTADO'. format (p))
 
     sim = 0
     nao = 0
@@ -73,7 +73,7 @@ for p in range(1,6):
         nao += 1
         print('NÃO')
 
-    print ('Dados do entrevistado {}ª entrevistado'. format (p))
+    print ('Dados do {}ª entrevistado'. format (p))
 
 
     print(f"o entrevistado deu {sim} respostas SIM")
