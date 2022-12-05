@@ -62,12 +62,78 @@ Sexo= float, print("Sou do sexo", Sexo,)
 
 #meu exercicio
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 print ('DIGITE A SEGUINTES INFORMAÇÕES:')
 for p in range(1,4):
     print('{}ª PESSOA'. format (p))
     Nome = str(input('Informe o nome: '))
     Idade = int(input('Qual a Idade: ')) 
-    Sexo = str( input ('Qual sexo melhor o defini [M | F | OUTROS]: '))
+while True:
+    Sexo = str( input (f'Qual sexo melhor o defini [M | F | OUTROS]: \n'))[0].lower
+    if Sexo == 'sno':
+        break
+    else:
+        print ('opção invalida')
+if Sexo == 'm':
+    print ('masculino')
+elif Sexo == 'f':
+    print ('Feminino')
+elif Sexo == 'o':
+    print ('outros')
+
+
+while True:
+    pergunta = str( input (f'Qual sexo melhor o defini [M] para Masculino [F] para feminino [O] para OUTROS: \n'))[0].lower()
+    if pergunta in "mfeo":
+        break
+    else:
+        print ("opção invalida")
+if Sexo == 'm':
+    Sexo
+    print ('masculino')
+elif Sexo == 'f':
+    Sexo
+    print ('Feminino')
+elif Sexo == 'o':
+    Sexo
+    print ('outros')
+elif Sexo == 'e':
+    print ('fim')
+    exit
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     Natural = str(input('Natural de qual cidade: '))
     estado = str(input("Naturalde qual estado: "))
     Telefone= int(input("Informe um numero para contato: "))
@@ -86,18 +152,3 @@ for p in range(1,4):
 #faça um programa para a polícia solucionar um assassinato, para descobrir o assassino a polícia faz um questionario de 5 perguntas, para 4 suspeitos.
 
 
-print ('REPONDA COM ''SIM'' OU ''NAO'':')
-for p in range(1,5):
-    print('{}ª PESSOA'. format (p))
-    pergunta_1=format(input('1. Mora perto da vítima?'))
-    pergunta_2=format(input('2 Ja trabalhou com a vítima?')) 
-    pergunta_3=format( input ('3. telefono paara a vítima?'))
-    pergunta_4=format(input('4. Esteve com a vítima?'))
-    pergunta_5=format(input("5. Devia para a vítima?"))
-    
-    print ('dados',p,'ª pessoa')
-    print ( pergunta_1 )
-    print ( pergunta_2 )
-    print ( pergunta_3 )
-    print ( pergunta_4 )
-    print ( pergunta_5 )
