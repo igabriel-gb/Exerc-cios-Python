@@ -1,21 +1,27 @@
-while True:
-    try:
-        from datetime import date
-        data=date.today().year
+valor_passagem = 4.30
+valor_corida = input('MODELO 1    qual o valor da corrida?  ')
+if float(valor_corida) <= valor_passagem * 5:
+    print("pague a corrida")
+if float(valor_corida) > valor_passagem * 5:
+    print("pegue o ônibus")
 
 
-        pg1 = float(
-            input('Informe seu ano de nascimento: '))
-        idade = data - pg1
-        while pg1 < 0:
-            print(f'Erro, ano de nascimento invalido. Informe seu ano de nacsimento:  ')
-            idade = data - pg1
-        print(idade,'anos')
+valor_passagem = 4.30
+valor_corida = input('modelo 2    QUAL O VALOR DA CORRIDA?  ')
+if float(valor_corida) <= valor_passagem * 5:
+    print("pague a corrida")
+else:
+    if float(valor_corida) <= valor_passagem * 6:
+        print("espere um pouco o valor da corrida pode abaixar")
+    else:
+        print("pague o ônibus")
 
-    except ValueError:
-            loop = input("digite apenas numeros que continuar? sim ou não  ")[0]
-            if loop == 's':
-                continue
-            else:
-                print("Fim")
-                break    
+
+        valor_passagem = 4.30
+valor_corida = input('Modelo 3    Qual O Valor Da Corrida?  ')
+if float(valor_corida) <= valor_passagem * 5:
+    print("pague a corrida")
+elif float(valor_corida) <= valor_passagem * 6:
+    print("espere um pouco o valor da corrida pode abaixar")
+else:
+    print("pague o ônibus")
